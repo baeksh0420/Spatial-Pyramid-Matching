@@ -155,6 +155,7 @@ x_train = [spatial_pyramid_matching(train_data[i],x_train[i], codebook, level=2)
 | x | 10 | 0.0198 | 800 | o | 0.35106 |
 | o | 15 | 0.0198 | 400 |   o |0.22163|
 | o | 15 | 0.5 |400  |  o |0.22163|
+| o | 10 | 0.0298 |400  |  o |0.22163|
 
 
 -성능 향상의 큰 요인 : SPM kernel
