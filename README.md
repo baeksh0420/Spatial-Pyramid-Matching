@@ -1,5 +1,10 @@
 # Project
 
+Beyond bags of features spatial pyramid matching for recognizing natural
+scene categories, CVPR 2006
+
+논문 : https://inc.ucsd.edu/~marni/Igert/Lazebnik_06.pdf
+
 데이터 로드
 <pre><code>
 labelll=pd.read_csv('../content/input/Label2Names.csv')
