@@ -3,7 +3,7 @@
 
 논문 : https://inc.ucsd.edu/~marni/Igert/Lazebnik_06.pdf
 
-데이터 로드
+### 데이터 로드
 <pre><code>
 labelll=pd.read_csv('../content/input/Label2Names.csv')
 labelll.loc[100] = ['1', 'Faces']
@@ -44,7 +44,7 @@ train_name = np.array(train_name)
 
 </pre></code>
 
-SIFT
+### SIFT
 <pre><code>
 def siftfunction(data):
     x = []
@@ -60,7 +60,7 @@ def siftfunction(data):
     return x
 </pre></code>
 
-코드북
+### 코드북
 <pre><code>
 all_train_desc = []
 for i in range(len(x_train)):
@@ -78,7 +78,7 @@ def build_codebook(X, voc_size):
     return codebook
 </pre></code>
 
-SPM
+### SPM
 <pre><code>
 def build_spatial_pyramid(image, descriptor, level):
   
