@@ -137,17 +137,15 @@ x_train = [spatial_pyramid_matching(train_data[i],x_train[i], codebook, level=2)
 </pre></code>
 
 
-성능 향상을 위한 변경
-
--노이즈 데이터 제외
--kmeans 코드조각 개수 변경
--히스토그램 정규화
--파라미터 C 변경
--sift 스텝사이즈 변경
--SPM 적용
--SPM kenel 적용
--이미지 사이즈 변경
-
+### 성능 향상을 위한 변경
+- 노이즈 데이터 제외
+- kmeans 코드조각 개수 변경
+- 히스토그램 정규화
+- 파라미터 C 변경
+- sift 스텝사이즈 변경
+- SPM 적용
+- SPM kenel 적용
+- 이미지 사이즈 변경
 
 |SPM 적용| step_size | 파라미터 c | 코드조각 | kmc2 적용 | 성능 |
 | --- | --- |--- |--- |--- |--- |
@@ -161,7 +159,7 @@ x_train = [spatial_pyramid_matching(train_data[i],x_train[i], codebook, level=2)
 | o | 10 | 0.0298 |400  |  o |0.22163|
 
 
--성능 향상의 큰 요인 : SPM kernel
+- 주요 성능 향상 요인 : SPM kernel
 
 |SPM 커널 적용|SPM 적용| step_size | 파라미터 c | 코드조각 | kmc2 적용 | 성능 |
 | --- | --- |--- |--- |--- |--- |--- |
